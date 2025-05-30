@@ -23,7 +23,7 @@ Homescreen (Page 1)
 
 Homescreen (Page 2)
 
-![IMG_20250530_222204259_HDR](https://github.com/user-a Pagettachments/assets/681e69b6-3376-47df-8d24-abd12b7b6939)
+![IMG_20250530_222204259_HDR](https://github.com/user-attachments/assets/681e69b6-3376-47df-8d24-abd12b7b6939)
 
 About Page
 
