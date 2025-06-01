@@ -11,7 +11,7 @@ Next steps are to implement a dynamic notification area to show messages/notific
 
 Would love to import meshtastics LoRa implementation and rework the UI for e-paper to setup, register and send messages via LoRa.
 
-***Possibly open to opening this project up for help with development here on GitHub depending on the interest - ill open a pull request, feel free to share your thoughts or express interest***
+***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
 
 Below is whats already implemented:
 
