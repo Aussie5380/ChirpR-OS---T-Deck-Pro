@@ -5,7 +5,7 @@ A preview of the firmware im working on for the Lilygo T Deck Pro
 
 This is still a major work in progress but its coming together nicely. A full e-paper refresh system has been put in place now (partial refresh for items displayed and a full refresh every 20 mins to stop burn in and ghosting)
 
-Wifi, touch, PCM5102, keyboard, LoRa, gyroscope and display all initialising correctly on boot.
+Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialising correctly on boot.
 
 Next steps are to implement a "Homescreen" that it lands on with time and weather info (pulled from wifi and weather api's) and a notification area to show messages/notification icon etc when the LoRa side of things is completed.
 
