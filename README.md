@@ -1,21 +1,30 @@
 # ChirpR-OS-Preview---T-Deck-Pro-
-A preview of the firmware im working on for the Lilygo T Deck Pro
+A preview of the firmware im working on for the Lilygo T Deck Pro. I have used the test firmware examples from the device as a guide to build upon. 
 
-**Please ignore the screen burn in  - this is my first time working with e-paper displays! I learnt very quickly what NOT to do!! its a dev device anyway ;)
+**Please ignore the screen burn in  - this is my first time working with e-paper displays! I learnt very quickly what NOT to do!! its a dev device anyway ;)***
 
 This is still a major work in progress but its coming together nicely. A full e-paper refresh system has been put in place now (partial refresh for items displayed and a full refresh every 20 mins to stop burn in and ghosting)
 
 Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialising correctly on boot.
 
-Next steps are to implement a dynamic notification area to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include.
+Next steps are to implement a dynamic notification area on both the lock screen and home screen to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include:
+
+- Contacts
+- Step Counter Settings
+- Finish Alarms off
+- Calendar 
+- Initial Setup at first boot
+- Others
+
+Happy for suggestions! i will see what i can do!
 
 Would love to import meshtastics LoRa implementation and rework the UI for e-paper to setup, register and send messages via LoRa.
 
 ***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
 
-Below is whats already implemented:
+Below is whats been implemented:
 
-***UPDATE*** 01/06/2025 5.30pm - Version 1.1.0
+***UPDATE 01/06/2025 5.30pm - Version 1.1.0***
 
 Power off/Ship Mode (displays and then powers the device off - like test firmware)
 
@@ -53,7 +62,7 @@ Stay Tuned for the next update!!
 
 ______________________________________________________________________________________________________________________
 
-Version 1.0
+***First Release - 30/05/2025 Version 1.0***
 
 Homescreen (Page 1)
 
