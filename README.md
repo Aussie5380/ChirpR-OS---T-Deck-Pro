@@ -5,11 +5,13 @@ A preview of the firmware im working on for the Lilygo T Deck Pro
 
 This is still a major work in progress but its coming together nicely. A full e-paper refresh system has been put in place now (partial refresh for items displayed and a full refresh every 20 mins to stop burn in and ghosting)
 
-Wifi, touch, PCM5102, keyboard, LoRa and display all initialising correctly on boot.
+Wifi, touch, PCM5102, keyboard, LoRa, gyroscope and display all initialising correctly on boot.
 
 Next steps are to implement a "Homescreen" that it lands on with time and weather info (pulled from wifi and weather api's) and a notification area to show messages/notification icon etc when the LoRa side of things is completed.
 
 Below is whats already implemented:
+
+***UPDATE*** 01/06/2025 5.30pm - Version 1.1.0
 
 Power off/Ship Mode (displays and then powers the device off - like test firmware)
 
@@ -18,6 +20,36 @@ Power off/Ship Mode (displays and then powers the device off - like test firmwar
 Boot Image
 
 ![IMG_20250530_222128827_HDR](https://github.com/user-attachments/assets/dff0acd8-fdae-42b2-9b9b-3961560b72de)
+
+New home screen landing page - Time , date and built in step counter (currently set at 10,000 per day as goal, resets at midnight) with built in infinite scrolling between all home screen and app pages!
+
+![IMG_20250601_171150305](https://github.com/user-attachments/assets/6e5571ec-d261-4e2b-b8b9-7cab3dc36391)
+
+Updated apps page, with an inclusion of a voice notes app to record and save to the SD card
+
+![IMG_20250601_171159209](https://github.com/user-attachments/assets/eaf63f83-6121-4143-bcd1-ea8ec07594dd)
+
+![IMG_20250601_171211437](https://github.com/user-attachments/assets/d431da88-3abd-430f-9c97-4731fd4f48bf)
+
+Updated Lockscreen with steps counter display and adaptive battery charging status on the bottom text (with charging symbol)
+
+![IMG_20250601_171255262](https://github.com/user-attachments/assets/4a85b7c5-9080-4043-8751-c21fc587854b)
+
+![IMG_20250601_172043308](https://github.com/user-attachments/assets/94d1084c-883f-40c3-a41d-46a92ae7993b)
+
+Lockscreen Password has been updated to show in the middle of the adaptive field (hides the password input field after 10 seconds of inactivity)
+
+![IMG_20250601_171308773](https://github.com/user-attachments/assets/ec8ab760-e847-4177-a0a1-c98242f3b362)
+
+Have removed the Shutdown icon from the apps menu and have implemented hold boot for 3 seconds to trigger draw over power menu to take its place
+
+![IMG_20250601_172842618](https://github.com/user-attachments/assets/d72c90c4-d102-43ba-801a-715c4726a88c)
+
+Stay Tuned for the next update!!
+
+______________________________________________________________________________________________________________________
+
+Version 1.0
 
 Homescreen (Page 1)
 
