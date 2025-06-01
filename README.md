@@ -7,7 +7,11 @@ This is still a major work in progress but its coming together nicely. A full e-
 
 Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialising correctly on boot.
 
-Next steps are to implement a "Homescreen" that it lands on with time and weather info (pulled from wifi and weather api's) and a notification area to show messages/notification icon etc when the LoRa side of things is completed.
+Next steps are to implement a dynamic notification area to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include.
+
+Would love to import meshtastics LoRa implementation and rework the UI for e-paper to setup, register and send messages via LoRa.
+
+***Possibly open to opening this project up for help with development here on GitHub depending on the interest - ill open a pull request, feel free to share your thoughts or express interest***
 
 Below is whats already implemented:
 
