@@ -32,7 +32,7 @@ Avatar Selection Modal:
 
 ![IMG_20250602_170352325](https://github.com/user-attachments/assets/52cbd5ef-58c1-43a8-b94e-fc4518fe2fdc)
 
-Almost complete UI overhaul - fonts have been updated and refreshed. I have also add 3 "Favourites" apps that can be changed in the settings menu to select 3 fave apps to show on the home screen.
+Almost complete UI overhaul - fonts have been updated and refreshed. I have also add 3 "Favourites" apps that can be changed in the settings menu to select 3 fave apps to show on the home screen and have updated the page indicator style to a rounded square.
 
 ![IMG_20250602_170501826](https://github.com/user-attachments/assets/c10fea53-69c1-45ed-bd05-3477dbdd5e5c)
 
