@@ -32,7 +32,7 @@ Avatar Selection Modal:
 
 ![IMG_20250602_170352325](https://github.com/user-attachments/assets/52cbd5ef-58c1-43a8-b94e-fc4518fe2fdc)
 
-Almost complete UI overhaul - fonts have been updated and refreshed. I have also add 3 "Favourites" apps that can be chnaged in the settings menu to select 3 fave apps to show on the home screen.
+Almost complete UI overhaul - fonts have been updated and refreshed. I have also add 3 "Favourites" apps that can be changed in the settings menu to select 3 fave apps to show on the home screen.
 
 ![IMG_20250602_170501826](https://github.com/user-attachments/assets/c10fea53-69c1-45ed-bd05-3477dbdd5e5c)
 
@@ -48,7 +48,7 @@ A new Contacts App
 
 ![IMG_20250602_170541406](https://github.com/user-attachments/assets/44d43bd6-0a70-46c0-8f92-cbc03f7bda20)
 
-Updated lockscreen fonts, lock symbol and charging botly symbol
+Updated lockscreen fonts, lock symbol and charging bolt symbol
 
 ![IMG_20250602_170559424](https://github.com/user-attachments/assets/3c2fa2d4-73b2-4fba-9c2a-4b784f691798)
 
