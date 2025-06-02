@@ -9,11 +9,9 @@ Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialisin
 
 Next steps are to implement a dynamic notification area on both the lock screen and home screen to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include:
 
-- Contacts
 - Step Counter Settings
 - Finish Alarms off
 - Calendar 
-- Initial Setup at first boot
 - Others
 
 Happy for suggestions! i will see what i can do!
@@ -23,6 +21,43 @@ Would love to import meshtastics LoRa implementation and rework the UI for e-pap
 ***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
 
 Below is whats been implemented:
+
+***UPDATE 02/06/2025 515pm - Version 1.2.1**
+
+Implemented setup screen on first boot. Can select an avatar for your card in the contacts menu and set name.
+
+![IMG_20250602_170309780](https://github.com/user-attachments/assets/7f87d69d-62d5-421d-8071-efe1579627bc)
+
+Avatar Selection Modal:
+
+![IMG_20250602_170352325](https://github.com/user-attachments/assets/52cbd5ef-58c1-43a8-b94e-fc4518fe2fdc)
+
+Almost complete UI overhaul - fonts have been updated and refreshed. I have also add 3 "Favourites" apps that can be chnaged in the settings menu to select 3 fave apps to show on the home screen.
+
+![IMG_20250602_170501826](https://github.com/user-attachments/assets/c10fea53-69c1-45ed-bd05-3477dbdd5e5c)
+
+![IMG_20250602_170705070](https://github.com/user-attachments/assets/efd02740-17c1-4e8a-81b8-7619f7ca374d)
+
+![IMG_20250602_170513627](https://github.com/user-attachments/assets/51405614-b40a-482a-a615-c63e07216c7d)
+
+A new Contacts App
+
+![IMG_20250602_170521357](https://github.com/user-attachments/assets/abf97972-538a-4130-9c15-5d462ebe07f0)
+
+![IMG_20250602_170532518](https://github.com/user-attachments/assets/99a25b95-be20-4c59-9d7b-b149d5fd791f)
+
+![IMG_20250602_170541406](https://github.com/user-attachments/assets/44d43bd6-0a70-46c0-8f92-cbc03f7bda20)
+
+Updated lockscreen fonts, lock symbol and charging botly symbol
+
+![IMG_20250602_170559424](https://github.com/user-attachments/assets/3c2fa2d4-73b2-4fba-9c2a-4b784f691798)
+
+![IMG_20250602_170612991](https://github.com/user-attachments/assets/5cb7ecff-be11-4bb5-b79c-d37605a2b7ed)
+
+Stay tuned for the next update!!
+
+_____________________________________________________________________________________________________________________
+
 
 ***UPDATE 01/06/2025 5.30pm - Version 1.1.0***
 
