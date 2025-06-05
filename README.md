@@ -9,7 +9,6 @@ Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialisin
 
 Next steps are to implement a dynamic notification area on both the lock screen and home screen to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include:
 
-- Step Counter Settings
 - Finish Alarms off
 - Calendar 
 - Others
@@ -21,6 +20,29 @@ Would love to import meshtastics LoRa implementation and rework the UI for e-pap
 ***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
 
 Below is whats been implemented:
+
+***UPDATE 06/06/2025 7.05am Version 1.30***
+
+Complete time unification system implemented and step counter settings now has a new app. Time Zone settings will be added to first boot setup
+
+![IMG_20250606_070546385_HDR](https://github.com/user-attachments/assets/27e9a397-7fb2-4fc6-a92d-5185b679e4ef)
+
+![IMG_20250606_070253829_HDR](https://github.com/user-attachments/assets/9a47bc69-f0a0-475f-b4aa-25981b371c79)
+
+New Quick Settings Panel by swiping down on the home screen (to be implemented across all screens)
+
+![IMG_20250606_070046907_HDR](https://github.com/user-attachments/assets/a342ee38-3333-4837-8dd4-a361a25bbf86)
+
+New music controls added to the lockscreen with dynamic icon. Touh icon to open music modal on the lockscreen
+
+![IMG_20250606_070203085_HDR](https://github.com/user-attachments/assets/b884ff01-a1b2-4d8e-b1f4-381e77062f2f)
+
+![IMG_20250606_070212392_HDR](https://github.com/user-attachments/assets/627112f9-c642-4d77-8c81-a1acc3b65860)
+
+Stay tuned for the next update!
+
+____________________________________________________________________________________________________________________
+
 
 ***UPDATE 02/06/2025 515pm - Version 1.2.1**
 
