@@ -21,6 +21,10 @@ Would love to import meshtastics LoRa implementation and rework the UI for e-pap
 
 Below is whats been implemented:
 
+***UPDATE 17/06/2025***
+
+Apologies, end of financial year has drawn me aeay from the project temporarily, but development will resume next week after EOFY has closed. stay tuned!
+
 ***UPDATE 06/06/2025 7.05am Version 1.30***
 
 Complete time unification system implemented and step counter settings now has a new app. Time Zone settings will be added to first boot setup
