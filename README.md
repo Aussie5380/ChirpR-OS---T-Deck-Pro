@@ -10,8 +10,8 @@ Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialisin
 Next steps are to implement a dynamic notification area on both the lock screen and home screen to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include:
 
 - Finish Alarms off
-- Calendar 
-- Others
+- Add Bluetooth (BLE)
+- Implement ChirpR OS Watch to work with the t deck pro - to be run on the T watch S3 Pro
 
 Happy for suggestions! i will see what i can do!
 
@@ -20,6 +20,37 @@ Would love to import meshtastics LoRa implementation and rework the UI for e-pap
 ***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
 
 Below is whats been implemented:
+
+***UPDATE 24/06/2025 @ 10.50PM - Version 1.4.1***
+
+***FIRST BETA BUILD WILL BE AVAILABLE IN THE NEXT WEEK FOR TESTING***
+
+Have finalised first boot setup to include all fields for time and date settings.
+
+![IMG_20250624_210824202_HDR](https://github.com/user-attachments/assets/dbb741e8-6eef-4339-9943-5c1fd06ca3a3)
+
+![IMG_20250624_210922517_HDR](https://github.com/user-attachments/assets/d5bd1f57-bc83-4cb8-b4cf-081809a3d31c)
+
+![IMG_20250624_210938876_HDR](https://github.com/user-attachments/assets/c73cf1d1-4501-4e4c-8977-1a38e1b783bc)
+
+Removed the top bar line from apps menus
+
+![IMG_20250624_211217716_HDR](https://github.com/user-attachments/assets/315d8499-ad04-4a03-bcbe-9bf470bb5e2a)
+
+Added new icons for upcoming features
+
+![IMG_20250624_211448548_HDR](https://github.com/user-attachments/assets/ea3e8d97-fb43-4541-b1c1-7096ec2ea64d)
+
+New lock screen pin unlock option. create pin in settings and swipe up on lock screen to show pin modal
+
+![IMG_20250624_224708132_HDR](https://github.com/user-attachments/assets/1cff0f05-969f-4785-afdc-31be0caa6ba6)
+
+Have implemented further power saving on the lockscreen. When unused for 3 mins while on the lockscreen it clears the display and turns the display off, and wakes up with touch/keyboard press
+
+![IMG_20250624_225143810_HDR](https://github.com/user-attachments/assets/854459f4-3462-419b-9dfe-5800d0c6a1af)
+
+Excited to share this with you soon!
+
 
 ***UPDATE 17/06/2025***
 
