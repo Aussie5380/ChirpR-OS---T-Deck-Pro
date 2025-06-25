@@ -1,29 +1,106 @@
-# ChirpR-OS-Preview---T-Deck-Pro-
-A preview of the firmware im working on for the Lilygo T Deck Pro. I have used the test firmware examples from the device as a guide to build upon. 
+ChirpR OS - T Deck Pro
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9367ba6f-826e-461f-8b4f-c66a7aee98ee" width="300" alt="ChirpR OS Logo">
+</div>
+
+A preview of the firmware im working on for the Lilygo T Deck Pro. I have used the test firmware examples from the device as a guide to build upon. ***Please note i do all of this in my spare time, so updates etc wont all ways be scheduled, although if people would like to help make this the best firmware for the T Deck Pro, i would love people to join and contribute!***
+
+***DISCLAIMER - This firmware has been developed for the Audio variant of the T Deck Pro (Not the 4G version). As the firmware has been built off the test firmware, it handles the component detection in the exact same way - You are free to test this firmware on your device if you have the 4G version, however you do so at your own risk and do so knowing the music player will not generate which may cause system failure. I will not accept any responsibility for device failure or bricking (however this is extremley difficult to acheive). I dont own a 4G version to test this as of yet, however if there is enough interest and i can get some feed back from 4G version users if they test it, i can see what i can do to patch the 4G version to enable it to boot etc if required. I will order a 4G version when i can afford it. No work is being planned on 4G development for this device, now, or in the future.***
+
+***What is ChirpR OS?***
+
+ChirpR OS is a firmware designed for the Lilygo T-Deck Pro hardware platform that transforms your device into a powerful communication hub with e-paper display technology. Built specifically for long-range messaging, remote communication, and outdoor adventures where traditional devices may fail. The design philosophy was centered around ease of use and functionality.
+
+Core Features & Applications
+
+📱 17 Built-in Applications - ChirpR OS comes packed with a comprehensive suite of applications:
+
+📡 Messages - LoRa Messaging (coming soon!)	
+
+🧮 Calculator - Full-featured calculator	
+
+🎵 Music - Audio player with headphone support
+
+⚙️ Settings - System configuration and settings
+
+📍 GPS - Real-time location logging	
+
+📝 Notes - Text note taking	
+
+🎤 Voice - Audio recording/playback	voice notes
+
+⌚ Watch - ChirpR OS Watch connectivity coming soon! (T Watch S3 Plus)
+
+📶 WiFi - Network connectivity	
+
+📁 Files - SD card file management	
+
+📅 Calendar - Basic Calendar
+
+💪 Health - Fitness tracking (steps) utilising the onboard AI chip to generate health insights.
+
+🔵 Bluetooth - Device pairing	(over BLE)
+
+👥 Contacts - Contact management	
+
+🔔 Alarms - Basic Alarm System
+
+🚶 Steps - Step counter with goals
+
+🌐 MeshCore - Mesh networking (coming soon!)		
+
+
+
+ChirpR OS transforms your T-Deck Pro into the ultimate communication device for:
+
+🏕️ Off-grid adventures
+
+🚨 Emergency preparedness
+
+🏭 Industrial applications
+
+🛡️ Privacy-focused communication
+
+🔬 IoT and maker projects
+
+
+Ready to revolutionise how you communicate? Stay tuned for further progress!
+
+ChirpR OS - Where e-paper meets long-range communication. When the grid goes down, we stay connected. 🌐⚡📡
+
+
+***Progress Reports***
 
 **Please ignore the screen burn in  - this is my first time working with e-paper displays! I learnt very quickly what NOT to do!! its a dev device anyway ;)***
 
-This is still a major work in progress but its coming together nicely. A full e-paper refresh system has been put in place now (partial refresh for items displayed and a full refresh every 20 mins to stop burn in and ghosting)
+I am currently preparing MeshCore's LoRa implementation which will require a rework the UI for e-paper to setup, register and send messages via LoRa. This will not be included in the first beta test builds.
 
-Wifi, touch, PCM5102, keyboard, GPS, LoRa, gyroscope and display all initialising correctly on boot.
+A big shout out to Andy at MeshCore for graciously allowing me to implement MeshCore's Mesh Network instead of building one from the ground up! This will significantly reduce development time!
 
-Next steps are to implement a dynamic notification area on both the lock screen and home screen to show messages/notification icon etc when the LoRa side of things is completed, as well as finish implementing the other apps i want to include:
+***BETA TESTING IS OPENING WITHIN THE NEXT 2 WEEKS - STAY TUNED FOR MORE UPDATES***
 
-- Finish Alarms off
-- Add Bluetooth (BLE)
-- Implement ChirpR OS Watch to work with the t deck pro - to be run on the T watch S3 Pro
+Below is whats been implemented so far:
 
-Happy for suggestions! i will see what i can do!
+***UPDATE 25 June 2025 @ 6:08pm - Version 1.5.0***
 
-Would love to import meshtastics LoRa implementation and rework the UI for e-paper to setup, register and send messages via LoRa.
+Have implemented the last of the icons - Health, Calendar and MeshCore
 
-***Possibly open to opening this project up for help with development here on GitHub depending on the interest - feel free to share your thoughts or express interest***
+![IMG_20250625_180645216_HDR](https://github.com/user-attachments/assets/017ed4a4-51d7-4d9f-aed9-78c32851ed18)
 
-Below is whats been implemented:
+Health uses the steps counter and onboard AI chip to generate health insights and tracking. This will be further linked with the T Watch S3 Plus once firmware development begins in a few weeks (waiting for the device to arrive so i can start)
+
+![IMG_20250625_180709990_HDR](https://github.com/user-attachments/assets/a54e957b-553a-4852-a875-5b9a481487aa)
+
+Have put a toggle in Lock Screen Settings to turn off/on "turn display off after 3 mins with no action on lockscreen" for further power savings.
+
+![IMG_20250625_180742093_HDR](https://github.com/user-attachments/assets/3e547cb8-a93e-4246-b9c5-6fc6c7008215)
+
+Other smaller fixes under the hood have been completed (date removed from top bar to reduce crowding - still available on home screen, lock screen and quick settings panel) Final work on a few of the apps needs to be completed and tested, and then its ready for beta testing!
+
+Beta firmware will be ready in the next week or 2 so stay tuned!
 
 ***UPDATE 24/06/2025 @ 10.50PM - Version 1.4.1***
-
-***FIRST BETA BUILD WILL BE AVAILABLE IN THE NEXT WEEK FOR TESTING***
 
 Have finalised first boot setup to include all fields for time and date settings.
 
