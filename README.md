@@ -1,5 +1,8 @@
 ChirpR OS - T Deck Pro
 
+Current Version: 1.6.3
+
+
 <div align="center">
 <img src="https://github.com/user-attachments/assets/9367ba6f-826e-461f-8b4f-c66a7aee98ee" width="300" alt="ChirpR OS Logo">
 </div>
