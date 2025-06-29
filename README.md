@@ -82,6 +82,33 @@ A big shout out to Andy at MeshCore for graciously allowing me to implement Mesh
 
 Below is whats been implemented so far:
 
+***Update 29 June 2025 @ 9:54pm - Version 1.6.3***
+
+BLE functionality has now been built in for the T Watch intergration.
+
+![IMG_20250629_213631142_HDR_PORTRAIT](https://github.com/user-attachments/assets/ff2172ce-e164-42c0-a6ce-04dc6cb3bbf6)
+
+Updated the About icon and have changed the information available. Now contains unique device name (based on hashed and truncated mac addresses)
+
+![IMG_20250629_213616292_HDR_PORTRAIT](https://github.com/user-attachments/assets/37606d8e-06da-4499-bd99-5c8070f25959)
+
+
+![IMG_20250629_213559857_HDR_PORTRAIT](https://github.com/user-attachments/assets/96e9e556-705f-47ae-ba06-e79906d220bc)
+
+Have implemented a boot intervention for plugging the device in. To stop the system from just booting, it now brings up a menu to charge the device only or start the system. If charge is seletced it will take you to the charge screen which shows the time and charge status and a start system button. A power icon is in the corner to switch device off.
+
+![IMG_20250629_213757001_HDR_PORTRAIT](https://github.com/user-attachments/assets/46fb1ec5-be9d-452b-81e9-3e9af108a22d)
+
+![IMG_20250629_214922868_HDR_PORTRAIT](https://github.com/user-attachments/assets/2251a7b7-3640-4b6d-b873-66ed960bba8d)
+
+Health has now got a small bar graph showing steps for the week so far as progress.
+
+![IMG_20250629_213703272_HDR_PORTRAIT](https://github.com/user-attachments/assets/0610046a-75a0-4be0-b6f1-f0a780c81667)
+
+Also a critical battery feature has been put in place to stop battery degredation if the device is left and runs out of battery. it now shuts down and puts a similar message on the screen to the power off mode, that advises the user the device battery is critically low and they need to charge their battery.A few other smaller fixes under the hood.
+
+A few days left until the first beta version is released! Stay tuned!!
+
 ***UPDATE 25 June 2025 @ 6:08pm - Version 1.5.0***
 
 Have implemented the last of the icons - Health, Calendar and MeshCore
