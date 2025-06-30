@@ -1,6 +1,6 @@
 ChirpR OS - T Deck Pro
 
-Current Version: 1.6.3
+Current Version: 1.6.4
 
 
 <div align="center">
@@ -84,6 +84,26 @@ A big shout out to Andy at MeshCore for graciously allowing me to implement Mesh
 ***BETA TESTING IS OPENING WITHIN THE NEXT 2 WEEKS - STAY TUNED FOR MORE UPDATES***
 
 Below is whats been implemented so far:
+
+**Update 30 June 2025 @ 10:13pm - Version 1.6.4***
+
+Have finally implemented the move apps function. Hold down on an app and the Move App's modal appears. Hit start and complete the grids on both pages and hit save and it will recreate the apps screen to your prefrence and persist through reboots. Lists are dynamic and remove already selected options. This has kept me awake for a few days but its finally in!
+
+![IMG_20250630_220233282_PORTRAIT](https://github.com/user-attachments/assets/65472f2c-6108-43c6-9be3-8826c6d2b92e)
+
+![IMG_20250630_220333797_PORTRAIT](https://github.com/user-attachments/assets/a792f964-e08d-41fa-8c80-c15652c91adf)
+
+![IMG_20250630_220402324_PORTRAIT](https://github.com/user-attachments/assets/cb4bc99c-60ca-4c2f-bc5b-0d92576982e4)
+
+![IMG_20250630_220513377_PORTRAIT](https://github.com/user-attachments/assets/21db15aa-6ec8-4d93-bfd3-a817cf600816)
+
+![IMG_20250630_220533929_PORTRAIT](https://github.com/user-attachments/assets/d924f857-3c51-4759-9d7b-d43bcbcfd742)
+
+Update to battery critically low shutdown. Shuts system down at 3% and displays the below and turns the device off.
+
+![IMG_20250630_080411156_HDR_PORTRAIT](https://github.com/user-attachments/assets/6b870e6d-c53a-4c51-9252-d050f5ccaac8)
+
+First beta release due by Sunday 6 July at the latest!
 
 ***Update 29 June 2025 @ 9:54pm - Version 1.6.3***
 
