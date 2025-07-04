@@ -97,7 +97,7 @@ A small adjustment has been made to the move apps function, which now includes 3
 
 ![IMG_20250704_113036155_HDR jpg](https://github.com/user-attachments/assets/dffa1133-5553-4926-8ba7-20ff812c0397)
 
-![IMG_20250704_113036155_HDR jpg](https://github.com/user-attachments/assets/d3cbbc9d-d7b4-47ba-98f4-59d251c0205b)
+![IMG_20250704_115248217_HDR](https://github.com/user-attachments/assets/d5ac7649-47cc-4293-8309-b1049552b610)
 
 Now the final customisation feature is in, i need to finlaise eveything else in the firmware and polish a few features and its ready for testing!!!
 
