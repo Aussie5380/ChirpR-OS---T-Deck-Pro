@@ -1,6 +1,6 @@
 ChirpR OS - T Deck Pro
 
-Current Version: 1.6.4
+Current Version: 1.6.5
 
 
 <div align="center">
@@ -84,6 +84,22 @@ A big shout out to Andy at MeshCore for graciously allowing me to implement Mesh
 ***BETA TESTING IS OPENING WITHIN THE NEXT 2 WEEKS - STAY TUNED FOR MORE UPDATES***
 
 Below is whats been implemented so far:
+
+***UPDATE Friday July 4 @ 12.00 PM - Version 1.6.5***
+
+A small adjustment has been made to the move apps function, which now includes 3 new icon packs! Users now have the choice of the standard icons, simple, modern or funky icon packs, then can continue to rearrange the apps to their prefrences! Icon themes persist across reboot. Again this one kept me up for the last few days but its in and working!
+
+![IMG_20250704_112632506_HDR](https://github.com/user-attachments/assets/9222cc17-1558-41b9-98f0-3c02b32ad6c8)
+
+![IMG_20250704_112639805_HDR](https://github.com/user-attachments/assets/26d6dc84-f955-4587-bae1-05e0c2aabe6d)
+
+![IMG_20250704_112931638_HDR](https://github.com/user-attachments/assets/56b30af5-b831-4120-abd8-ae8b74cd7151)
+
+![IMG_20250704_113036155_HDR jpg](https://github.com/user-attachments/assets/dffa1133-5553-4926-8ba7-20ff812c0397)
+
+![IMG_20250704_113036155_HDR jpg](https://github.com/user-attachments/assets/d3cbbc9d-d7b4-47ba-98f4-59d251c0205b)
+
+Now the final customisation feature is in, i need to finlaise eveything else in the firmware and polish a few features and its ready for testing!!!
 
 **Update 30 June 2025 @ 10:13pm - Version 1.6.4***
 
