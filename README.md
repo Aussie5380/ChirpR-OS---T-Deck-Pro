@@ -1,6 +1,8 @@
 ChirpR OS - T Deck Pro
 
-Current Version: 1.6.5
+Current Version: 1.7.0B1
+
+***Beta Testing is NOW OPEN - Check Progress Report for 6 July below for more info!!***
 
 
 <div align="center">
@@ -81,9 +83,127 @@ I am currently preparing MeshCore's LoRa implementation which will require a rew
 
 A big shout out to Andy at MeshCore for graciously allowing me to implement MeshCore's Mesh Network instead of building one from the ground up! This will significantly reduce development time!
 
-***BETA TESTING IS OPENING WITHIN THE NEXT 2 WEEKS - STAY TUNED FOR MORE UPDATES***
-
 Below is whats been implemented so far:
+
+***UPDATE 6 July 2025 @ 01:15 PM - Version 1.7.0B1 - BETA TESTING OPEN***
+
+Version bump to 1.7.0 Beta 1! 🚀
+
+After wrestling with the space-time continuum, squashing bugs with extreme prejudice, and completing my mandatory fits of existential rage, I've finally arrived at the first beta build!
+
+System Optimisation: I've removed 1500+ lines of debug code, liberating precious RAM back to the wild. The result? Snappier performance and your battery will thank you with longer life.
+
+Music Mayhem Fixed: Asynchronous music implementation is complete! No more UI draws gate-crashing your audio party. Unfortunately, in the process, the quick settings and lockscreen music controls had to be temporarily "retired" (they were causing memory panics and general chaos). Instead, you'll find a sleek track card in quick settings that whisks you to the music app, and the lockscreen music icon still appears when jamming but now serves as a portal to the full music experience. Consider this my "functional but fashionable" interim solution while I create something more elegant for the final release. 
+
+Unfortunatley, Asynchronous music implementation has come with some issues with the voice recording app. This has been redesigned and is currently in an alpha state and does not work as intended. Please avoid using this until its fixed in another release. Apologies, to ensure a beta was released on time this had to be put on the back burner, but is being worked on in the background.
+
+Torch Mode Activated: I added a torch button to quick settings because that keyboard light deserved better than collecting dust. Now it can blind you in style (kind of)!
+
+OTA Teaser: I've also been tinkering with OTA update functionality behind the scenes. It's not quite ready for prime time (still needs some TLC and extensive testing), but hopefully the final release will feature seamless GitHub-to-device updates if i can get everything to work as intended. Because manually flashing firmware is so last year.
+
+Beta Testing Launch: Testing window is officially open for one calendar month from today! Bug reports are welcomed with open arms (and immediate coffee). I'll be working on bugs every Saturday where i can during the beta testing window to try and address issues. Releases may be every second Sunday, depending on time. Please bare with me, im a one man team (and i have to work)
+
+Notes for beta testing:
+
+You must have a micro SD card inserted in the T Deck Pro PRIOR to booting the device for the first time! The system requires this to function. SD card must be formatted as FAT or FAT32:
+
+✅ Recommended Format
+
+FAT32 - Most reliable and compatible
+
+📋 Detailed Specifications
+
+- File System: FAT32
+- Allocation Unit Size: 32KB (recommended) or 64KB
+- Card Size: 4GB - 128GB (tested range)
+- Speed Class: Class 10 or higher recommended
+
+
+Min SD card size - 8GB
+Max SD card size - 32GB
+
+Formatting Instructions
+
+Windows:
+
+- Right-click SD card → Format
+- File System: FAT32
+- Allocation unit size: 32768 bytes (32KB)
+- Quick Format: ✅ Checked
+
+macOS:
+
+- Disk Utility → Select SD card
+- Erase → Format: MS-DOS (FAT)
+- Scheme: Master Boot Record
+
+Linux:
+
+- In your terminal - sudo mkfs.vfat -F 32 -s 64 /dev/sdX1
+
+🚫 Avoid These Formats
+
+❌ NTFS - Not supported
+❌ exFAT - Limited/unreliable support
+❌ ext4 - Not supported
+
+Pro Tips
+
+- Create /music/ folder before first use
+- Use descriptive filenames like "Artist - Song Title.mp3"
+- Avoid special characters in filenames
+- Keep folder depth minimal for better performance
+- Turn device off to safely eject SD card.
+
+🎵 Supported Music Formats
+- MP3 (.mp3)
+- WAV (.wav)
+- M4A (.m4a) (untested)
+- FLAC (.flac) (untested)
+
+Due to the T Deck's microprocessor, it cannot handle song meta data - use simple naming conventions!
+
+❌ Not Ready for Testing
+
+🚧 Work in Progress
+
+❌ Alarms - Basic framework exists but not functional
+❌ Voice Recording/Playback - Partially implemented, needs completion
+
+📅 Future Release
+❌ Bluetooth - Planned for future release
+❌ Watch Features - Planned for future release
+❌ Messages - Planned for future release
+❌ Mesh Networking - No implementation as of yet
+
+I have tried to keep the display refresh system as clean as i can to ensure no ghosting. Please let me know if there are any issues. i havent had any since the system was implemented but noting i do have burn in on mine so may not be as visible as a clean normal display!
+
+📝 Testing Focus Points
+
+- Daily Usage Scenarios
+- Set up WiFi and time zone
+- Play music throughout the day
+- Use lockscreen music controls
+- Track daily steps and check health insights
+- Create and save notes
+- Arrange favorite apps on home screen and change icon packs
+
+Edge Cases
+
+- Rapid app switching
+- WiFi connection drops
+- Low battery scenarios
+- Large music libraries
+- Extended device uptime
+- User Experience
+- Intuitive navigation
+- Responsive touch controls
+- Clear visual feedback
+- Consistent behavior across apps
+
+I hope you all enjoy the first beta build. Its been a long 12 months but significant progress has been made over the last 2 months. I really wanna make this the best "OS" i can for the T Deck Pro, and thanks for helping test ChirpR OS!
+
+_____________________________________________________________________________________________________________________
 
 ***UPDATE Friday July 4 @ 12.00 PM - Version 1.6.5***
 
@@ -100,6 +220,7 @@ A small adjustment has been made to the move apps function, which now includes 3
 ![IMG_20250704_115248217_HDR](https://github.com/user-attachments/assets/d5ac7649-47cc-4293-8309-b1049552b610)
 
 Now the final customisation feature is in, i need to finlaise eveything else in the firmware and polish a few features and its ready for testing!!!
+_____________________________________________________________________________________________________________________
 
 **Update 30 June 2025 @ 10:13pm - Version 1.6.4***
 
@@ -120,6 +241,7 @@ Update to battery critically low shutdown. Shuts system down at 3% and displays 
 ![IMG_20250630_080411156_HDR_PORTRAIT](https://github.com/user-attachments/assets/6b870e6d-c53a-4c51-9252-d050f5ccaac8)
 
 First beta release due by Sunday 6 July at the latest!
+_____________________________________________________________________________________________________________________
 
 ***Update 29 June 2025 @ 9:54pm - Version 1.6.3***
 
@@ -147,6 +269,7 @@ Health has now got a small bar graph showing steps for the week so far as progre
 Also a critical battery feature has been put in place to stop battery degredation if the device is left and runs out of battery. it now shuts down and puts a similar message on the screen to the power off mode, that advises the user the device battery is critically low and they need to charge their battery.A few other smaller fixes under the hood.
 
 A few days left until the first beta version is released! Stay tuned!!
+______________________________________________________________________________________________________________________
 
 ***UPDATE 25 June 2025 @ 6:08pm - Version 1.5.0***
 
@@ -165,6 +288,7 @@ Have put a toggle in Lock Screen Settings to turn off/on "turn display off after
 Other smaller fixes under the hood have been completed (date removed from top bar to reduce crowding - still available on home screen, lock screen and quick settings panel) Final work on a few of the apps needs to be completed and tested, and then its ready for beta testing!
 
 Beta firmware will be ready in the next week or 2 so stay tuned!
+______________________________________________________________________________________________________________________
 
 ***UPDATE 24/06/2025 @ 10.50PM - Version 1.4.1***
 
@@ -194,10 +318,12 @@ Have implemented further power saving on the lockscreen. When unused for 3 mins 
 
 Excited to share this with you soon!
 
+______________________________________________________________________________________________________________________
 
 ***UPDATE 17/06/2025***
 
 Apologies, end of financial year has drawn me aeay from the project temporarily, but development will resume next week after EOFY has closed. stay tuned!
+______________________________________________________________________________________________________________________
 
 ***UPDATE 06/06/2025 7.05am Version 1.30***
 
